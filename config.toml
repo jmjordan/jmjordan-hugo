@@ -7,32 +7,39 @@ theme = "hugo-coder"
 [params]
 title = "Hi, I'm Jonathan"
 author = "Jonathan Jordan"
-info = "Engineer  🧡  Clemson Tiger  💜  Swiftie"
+info = "Engineer 🧡 Clemson Tiger 💜 Swiftie"
 avatarurl = "images/profile.jpg"
 doNotLoadAnimations = true
 mainSections = []
 colorscheme = "auto"
 
-[menu]
+[params.plausibleAnalytics]
+  domain = "beta.jmjordan.com"
 
+[menu]
   [[menu.main]]
   name = "About"
   weight = 200
   url = "/about/"
 
   [[menu.main]]
-  name = "Blog"
+  name = "Micro.blog"
   weight = 300
-  url = "https://jmjordan.micro.blog"
+  url = "https://micro.jmjordan.com"
   target = "_blank"
 
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-twitter fa-2x"
 title = "twitter"
-url = "https://www.twitter.com/jmjordan"
+url = "https://twitter.com/jmjordan"
 
 [[params.social]]
 icon = "fa fa-instagram fa-2x"
 title = "instagram"
-url = "https://www.instagram.com/jmjordan"
+url = "https://instagram.com/jmjordan"
+
+[[params.social]]
+icon = "fa fa-github fa-2x"
+title = "github"
+url = "https://github.com/jmjordan"
