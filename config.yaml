@@ -1,5 +1,5 @@
 ---
-baseURL: "http://example.org/"
+baseURL: "https://beta.jmjordan.com/"
 languageCode: "en-us"
 title: "jmjordan"
 theme: "hugo-coder"
