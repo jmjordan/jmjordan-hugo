@@ -1,0 +1,14 @@
+<section class="container page">
+  <article>
+	<header>
+	  <h1>{{ .Title }}</h1>
+	</header>
+
+	{{ .Content }}
+
+	<footer>
+	  <small>Updated on {{ .Lastmod.Format "January 2, 2006" }}</small>
+	</footer>
+  </article>
+</section>
+	
