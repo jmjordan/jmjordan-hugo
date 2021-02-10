@@ -9,13 +9,18 @@ params:
   defaultTheme: "auto"
   
   profileMode:
-    enabled: false
+    enabled: true
+    title: "Hi, I'm Jonathan"
+    subtitle: "Computer Engineer, proud [Clemson Tiger](https://clemson.edu), and loyal [Swiftie](https://taylorswift.com)."
+    imageUrl: "images/profile.jpg"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
     
   homeInfoParams:
     title: "Hi, I'm Jonathan"
     content: > 
       I am a Computer Engineer, 
-      proud [Clemson Tiger](https://clemson.edu)</a>, 
+      proud [Clemson Tiger](https://clemson.edu), 
       and loyal [Swiftie](https://taylorswift.com).
 
   socialIcons: # optional
