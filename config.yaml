@@ -2,43 +2,33 @@
 baseURL: "https://beta.jmjordan.com/"
 languageCode: "en-us"
 title: "jmjordan"
-theme: "hugo-coder"
-enableGitInfo: true
+theme: "PaperMod"
+paginate: 10
 
 params:
-  title: "Hi, I'm Jonathan"
-  author: "Jonathan Jordan"
-  info: "Engineer • Swiftie • Clemson Tiger"
-  avatarurl: "images/profile.jpg"
-  doNotLoadAnimations: true
-  mainSections: []
-  colorscheme: "auto"
-  commit: "https://github.com/jmjordan/jmjordan-hugo/tree"
+  defaultTheme: "auto"
   
-  plausibleAnalytics:
-    domain: "beta.jmjordan.com"
+  profileMode:
+    enabled: false
     
-  social:
-    - name: "Twitter"
-      icon: "fa fa-twitter fa-2x"
-      title: "twitter"
+  homeInfoParams:
+    title: "Hi, I'm Jonathan"
+    content: > 
+      I am a Computer Engineer, 
+      proud [Clemson Tiger](https://clemson.edu)</a>, 
+      and loyal [Swiftie](https://taylorswift.com).
+
+  socialIcons: # optional
+    - name: "twitter"
       url: "https://twitter.com/jmjordan"
-    
-    - icon: "fa fa-instagram fa-2x"
-      title: "instagram"
+    - name: "instagram"
       url: "https://instagram.com/jmjordan"
-      
-    - icon: "fa fa-github fa-2x"
-      title: "github"
-      url: "https://github.com/jmjordan"
+    - name: "email"
+      url: "mailto:hello@jmjordan.com"
 
 menu:
   main:
     - name: "About"
       weight: 200
       url: "/about/"
-    - name: "Micro.blog"
-      weight: 300
-      url: "https://micro.jmjordan.com"
-      target: "_blank"
 
