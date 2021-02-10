@@ -7,6 +7,10 @@ paginate: 10
 
 params:
   defaultTheme: "auto"
+  description: "Computer Engineer, Clemson Tiger, Swiftie"
+  images: 
+    - "images/profile.jpg"
+  author: "Jonathan Jordan"
   
   profileMode:
     enabled: true
