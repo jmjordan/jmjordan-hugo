@@ -2,6 +2,9 @@
 title: About
 date: "2021-01-24T17:40:23.000-08:00"
 hidemeta: true
+cover:
+  image: "images/banner.jpeg"
+  alt: "Hiking in February 2021"
 ---
 
 **👋🏻 Hi, I'm Jonathan!**
