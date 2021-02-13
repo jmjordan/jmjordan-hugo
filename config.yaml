@@ -24,9 +24,11 @@ params:
   homeInfoParams:
     title: "Hi, I'm Jonathan!"
     content: > 
-      I am a Computer Engineer, 
-      proud [Clemson Tiger](https://clemson.edu), 
-      and loyal [Swiftie](https://taylorswift.com).
+      - I am a Computer Engineer, proud Clemson Tiger, and loyal Swiftie.
+      
+      - I love technology and learning new things. 
+      
+      - You can find me all over the Internet if you'd like to connect.
 
   socialIcons: # optional
     - name: "twitter"
@@ -41,4 +43,7 @@ menu:
     - name: "About"
       weight: 200
       url: "/about/"
+    - name: "Now"
+      weight: 100
+      url: "/now/"
 
