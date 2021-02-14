@@ -40,10 +40,13 @@ params:
 
 menu:
   main:
-    - name: "About"
+    - name: "about"
       weight: 200
       url: "/about/"
-    - name: "Now"
-      weight: 100
+    - name: "now"
+      weight: 300
       url: "/now/"
+    - name: "cycle.log"
+      weight: 100
+      url: "/cycle.log/"
 
