@@ -1,5 +1,5 @@
 {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-<script async defer data-domain="beta.jmjordan.com" src="https://plausible.io/js/plausible.js"></script>
+<script async defer data-domain="{{ .Site.Params.plausible_io }}" src="https://plausible.io/js/plausible.js"></script>
 {{- end -}}
 <link rel="icon" type="image/png" sizes="64x64" href="
 {{- .Site.Params.assets.favicon64x64 | default "favicon-64x64.png" | absURL -}}">

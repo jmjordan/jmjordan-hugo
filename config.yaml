@@ -13,6 +13,8 @@ params:
     - "images/profile.jpg"
   author: "Jonathan Jordan"
   
+  plausible_io: "jmjordan.com"
+  
   profileMode:
     enabled: false
     title: "Hi, I'm Jonathan!"
