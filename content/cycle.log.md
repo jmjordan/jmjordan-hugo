@@ -1,7 +1,6 @@
 ---
 title: "cycle.log"
 date: 2021-02-13T22:21:57-08:00
-draft: true
 hidemeta: true
 cover:
   image: "images/cycle.log-cover.png"
