@@ -1,6 +1,7 @@
-{{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-<script async defer data-domain="{{ .Site.Params.plausible_io }}" src="https://plausible.io/js/plausible.js"></script>
-{{- end -}}
+<!-- Plausible.io -->
+<script async defer data-domain="{{ .Site.Params.plausible_io }}" src="https://analytics.jmjordan.io/js/plausible.js"></script>
+
+<!-- Large favicons -->
 <link rel="icon" type="image/png" sizes="64x64" href="
 {{- .Site.Params.assets.favicon64x64 | default "favicon-64x64.png" | absURL -}}">
 <link rel="icon" type="image/png" sizes="128x128" href="
