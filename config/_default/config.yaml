@@ -1,0 +1,56 @@
+---
+baseURL: "https://jmjordan.com/"
+languageCode: "en-us"
+title: "jmjordan"
+theme: "PaperMod"
+paginate: 10
+enableGitInfo: true
+
+params:
+  defaultTheme: "auto"
+  description: "Computer Engineer, Clemson Tiger, Swiftie"
+  images: 
+    - "images/banner.jpeg"
+    - "images/profile.jpg"
+  author: "Jonathan Jordan"
+  
+  plausible_io: "jmjordan.com"
+  updown_token: "ntzj"
+
+  profileMode:
+    enabled: false
+    title: "Hi, I'm Jonathan!"
+    subtitle: "Computer Engineer, proud [Clemson Tiger](https://clemson.edu), and loyal [Swiftie](https://taylorswift.com)."
+    imageUrl: "images/profile.jpg"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    
+  homeInfoParams:
+    title: "Hi, I'm Jonathan!"
+    content: > 
+      - I am a Computer Engineer, proud Clemson Tiger, and loyal Swiftie.
+      
+      - I love technology and learning new things. 
+      
+      - You can find me all over the Internet if you'd like to connect.
+
+  socialIcons: # optional
+    - name: "twitter"
+      url: "https://twitter.com/jmjordan"
+    - name: "instagram"
+      url: "https://instagram.com/jmjordan"
+    - name: "email"
+      url: "mailto:hello@jmjordan.com"
+
+menu:
+  main:
+    - name: "about"
+      weight: 200
+      url: "/about/"
+    - name: "now"
+      weight: 300
+      url: "/now/"
+    - name: "cycle.log"
+      weight: 100
+      url: "/cycle.log/"
+
