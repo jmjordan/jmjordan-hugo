@@ -2,7 +2,7 @@
 title: "Now"
 date: 2021-02-11T11:44:11-08:00
 draft: false
-hidemeta: true
+hidemeta: false
 ---
 
 This is my [now](https://nownownow.com/about) page. It will give you an idea of how I am currently spending my time...
@@ -26,12 +26,10 @@ This is my [now](https://nownownow.com/about) page. It will give you an idea of 
   * *evermore* by Taylor Swift
 
 * *Television*
+  * [WandaVision (2021)](https://www.imdb.com/title/tt9140560)
   * [Outlander (2014)](https://www.imdb.com/title/tt3006802/)
   * 🔁 [New Girl (2011)](https://www.imdb.com/title/tt1826940/)
   * 🔁 [It's Always Sunny In Philadelphia (2005)](https://www.imdb.com/title/tt0472954)
 
 * *Podcasts*
   * [The Office Ladies](https://officeladies.com) w/ Jenna Fischer and Angela Kinsey
-
-
-*Updated on February 13, 2021*
