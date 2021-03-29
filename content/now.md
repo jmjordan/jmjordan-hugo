@@ -26,10 +26,11 @@ This is my [now](https://nownownow.com/about) page. It will give you an idea of 
   * *evermore* by Taylor Swift
 
 * *Television*
-  * [WandaVision (2021)](https://www.imdb.com/title/tt9140560)
-  * [Outlander (2014)](https://www.imdb.com/title/tt3006802/)
+  * [Dickinson (2019)](https://www.imdb.com/title/tt8518136)
+  * ~~[Outlander (2014)](https://www.imdb.com/title/tt3006802/)~~ (I really tried but couldn't get invested in the characters...)
   * 🔁 [New Girl (2011)](https://www.imdb.com/title/tt1826940/)
   * 🔁 [It's Always Sunny In Philadelphia (2005)](https://www.imdb.com/title/tt0472954)
 
 * *Podcasts*
+  * [This Might Get Weird](https://www.youtube.com/channel/UC6qM1-K69UGys_BnilnWZ7w) w/ Grace Helbig and Mamrie Hart
   * [The Office Ladies](https://officeladies.com) w/ Jenna Fischer and Angela Kinsey
