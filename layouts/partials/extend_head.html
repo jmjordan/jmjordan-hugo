@@ -7,6 +7,7 @@
 <link rel="icon" type="image/png" sizes="128x128" href="
 {{- .Site.Params.assets.favicon64x64 | default "favicon-128x128.png" | absURL -}}">
 
+{{- if .Site.Params.updown_key -}}
 <script type="text/javascript">
     const getUptime = async () => {
 
@@ -43,3 +44,4 @@
         document.addEventListener("DOMContentLoaded", getUptime);
     }
 </script>
+{{- end -}}
