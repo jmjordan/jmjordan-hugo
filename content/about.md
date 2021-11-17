@@ -19,6 +19,6 @@ When I'm not building things I enjoy:
 * 📷 Taking photos
 * 🏳️‍🌈 Fighting for equality
 
-If you'd like to chat you can find me on [Twitter](https://twitter.com/jmjordan), [Instagram](https://instagram.com/jmjordan), or by good old-fashioned [email](mailto:jonathan@jmjordan.com) (bonus points for using my [public key](/keys/8001AD76916EC342B949AB1C43D44039208C0BE6.asc)).
+If you'd like to chat you can find me on [Twitter](https://twitter.com/jmjordan), [Instagram](https://instagram.com/jmjordan), or by good old-fashioned [email](mailto:jonathan@jmjordan.com) (bonus points for using my [PGP key](/.well-known/openpgpkey/hu/g4jm9jnzmgu85y7q5hyrm7smcppjc4i9)).
 
-PGP fingerprint: `8001 AD76 916E C342 B949 AB1C 43D4 4039 208C 0BE6`
+PGP fingerprint: `3F77 7D78 318A B262 22BB 473C 446C B99D 8179 2E60`
