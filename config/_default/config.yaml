@@ -50,7 +50,7 @@ menu:
     - name: "now"
       weight: 300
       url: "/now/"
-    - name: "cycle.log"
+    - name: "apps"
       weight: 100
-      url: "/cycle.log/"
+      url: "/apps/"
 
