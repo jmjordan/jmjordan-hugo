@@ -1,0 +1,13 @@
+{{- $scratch := newScratch}}
+
+{{- if not .Lastmod.IsZero -}}
+{{- $scratch.Add "meta" (slice (.Lastmod.Format "2 Jan 2006 · 3:04 PM UTC")) }}
+{{- end -}}
+
+{{- if (.Param "ShowReadingTime") -}}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%s min" .ReadingTime))) }}
+{{- end -}}
+
+{{- with ($scratch.Get "meta")}}
+{{- delimit . "&nbsp;·&nbsp;"}}
+{{- end }}
