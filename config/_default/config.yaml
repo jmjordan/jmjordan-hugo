@@ -4,7 +4,6 @@ languageCode: "en-us"
 title: "jmjordan"
 theme: "PaperMod"
 paginate: 25
-enableGitInfo: true
 
 params:
   mainSections: ['posts']
