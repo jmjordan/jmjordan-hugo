@@ -1,6 +1,6 @@
 ---
 title: About
-date: "2021-01-24T17:40:23.000-08:00"
+date: "2021-11-16T21:00:00-08:00"
 hidemeta: false
 cover:
   image: "images/banner.jpeg"

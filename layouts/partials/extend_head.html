@@ -1,6 +1,7 @@
 <!-- Plausible.io -->
-<script async defer data-domain="{{ .Site.Params.plausible_io }}" src="https://analytics.jmjordan.io/js/plausible.js"></script>
-
+{{- if .Site.Params.plausible_io -}}
+<!-- <script async defer data-domain="{{ .Site.Params.plausible_io }}" src="https://analytics.jmjordan.io/js/plausible.js"></script> -->
+{{- end -}}
 <!-- Large favicons -->
 <link rel="icon" type="image/png" sizes="64x64" href="
 {{- .Site.Params.assets.favicon64x64 | default "favicon-64x64.png" | absURL -}}">

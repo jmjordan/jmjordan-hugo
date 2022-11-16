@@ -1,6 +1,3 @@
 ---
 baseURL: "https://beta.jmjordan.com/"
 title: "jmjordan.beta"
-
-params:
-  plausible_io: "beta.jmjordan.com"

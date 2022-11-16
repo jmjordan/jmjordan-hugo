@@ -3,10 +3,11 @@ baseURL: "https://jmjordan.com/"
 languageCode: "en-us"
 title: "jmjordan"
 theme: "PaperMod"
-paginate: 10
-enableGitInfo: true
+paginate: 25
 
 params:
+  mainSections: ['posts']
+  ShowBreadCrumbs: true
   defaultTheme: "auto"
   description: "Computer Engineer, Clemson Tiger, Swiftie"
   images: 
@@ -20,7 +21,7 @@ params:
   profileMode:
     enabled: false
     title: "Hi, I'm Jonathan!"
-    subtitle: "Computer Engineer, proud [Clemson Tiger](https://clemson.edu), and loyal [Swiftie](https://taylorswift.com)."
+    subtitle: "I 💜 technology, making things, and Taylor Swift."
     imageUrl: "images/profile.jpg"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
@@ -53,4 +54,7 @@ menu:
     - name: "apps"
       weight: 100
       url: "/apps/"
+    - name: "archive"
+      weight: 400
+      url: "/archive"
 
