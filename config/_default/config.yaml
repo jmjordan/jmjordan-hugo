@@ -13,21 +13,21 @@ params:
   images: 
     - "images/banner.jpeg"
     - "images/profile.jpg"
-  author: "Jonathan Jordan"
+  author: "Joanna Jordan"
   
   plausible_io: "jmjordan.com"
   updown_token: "ntzj"
 
   profileMode:
     enabled: false
-    title: "Hi, I'm Jonathan!"
+    title: "Hi, I'm Joanna!"
     subtitle: "I 💜 technology, making things, and Taylor Swift."
     imageUrl: "images/profile.jpg"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     
   homeInfoParams:
-    title: "Hi, I'm Jonathan!"
+    title: "Hi, I'm Joanna!"
     content: > 
       - I am a Computer Engineer, proud Clemson Tiger, and loyal Swiftie.
       
@@ -36,10 +36,10 @@ params:
       - You can find me all over the Internet if you'd like to connect.
 
   socialIcons: # optional
-    - name: "twitter"
-      url: "https://twitter.com/jmjordan"
+    - name: "mastodon"
+      url: "https://social.lol/@jmj"
     - name: "instagram"
-      url: "https://instagram.com/jmjordan"
+      url: "https://instagram.com/msjoannajordan"
     - name: "email"
       url: "mailto:hello@jmjordan.com"
 
