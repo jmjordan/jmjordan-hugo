@@ -29,7 +29,7 @@
 <!-- Articles -->
 {{ range $pages }}<!---->
 
-<article class="post-entry tag-entry">
+<article class="post-entry">
     {{- $isHidden := (site.Params.cover.hidden | default site.Params.cover.hiddenInList) }}
     {{- partial "cover.html" (dict "cxt" . "IsHome" true "isHidden" $isHidden) }}
     <header class="entry-header">
